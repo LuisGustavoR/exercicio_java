@@ -6,7 +6,7 @@ public class Aluno {
 	private String nome;
 	private double nota;
 
-	public static void main(String[] args) {
+	public Aluno(String umNome, double umaNota) {
 		setNome(umNome);
 		setNota(umaNota);		
 	}
@@ -17,7 +17,7 @@ public class Aluno {
 
 	public double getNota(){return nota}
 
-	public void setNota(double nota){this.nota = nota}
+	public void setNota(double nota){this.nota = nota;}
 
 	public String toString(){
 		return (Nome: "+getNome()+", Nota: "+getNota()+")
