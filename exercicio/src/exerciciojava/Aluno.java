@@ -15,5 +15,12 @@ public class Aluno {
 
 	public void setNome(String nome){this.nome = nome;}
 
+	public double getNota(){return nota}
+
+	public void setNota(double nota){this.nota = nota}
+
+	public String toString(){
+		return (Nome: "+getNome()+", Nota: "+getNota()+")
+	}
 	
 }
